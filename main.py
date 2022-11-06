@@ -333,7 +333,7 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             for item in resultlist:
                 urls.append(item.url)
                 
-                xdlink.parse(urls)
+                #xdlink.parse(urls)
             #if data:
                 #txtfile.write(data)
             else:
