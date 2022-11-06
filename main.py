@@ -20,7 +20,7 @@ import animate
 from repouploader import RepoUploader,RepoUploaderResult
 from pydownloader.downloader import Downloader
 import shorturl
-#import xdlink
+import xdlink
 
 tl_admin_users = ['Yama_Tsukami','FriendXfriendss','ElJoker63'] #Poner aqui los user con acceso permanente
 godlist = ['Yama_Tsukami','FriendXfriendss','ElJoker63'] #Poner aqui los admin 
