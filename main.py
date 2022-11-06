@@ -332,9 +332,10 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
             urls = []
             for item in resultlist:
                 urls.append(item.url)
-
-            if data:
-                txtfile.write(data)
+                
+                xdlink.parse(urls)
+            #if data:
+                #txtfile.write(data)
             else:
                 txtfile.write('ERROR XDLINK PARSE URLS')
             txtfile.close()
