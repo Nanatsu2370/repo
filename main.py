@@ -336,8 +336,8 @@ async def onmessage(bot:TelegramClient,ev: NewMessage.Event,loop,ret=False):
                 #xdlink.parse(urls)
             #if data:
                 #txtfile.write(data)
-            else:
-                txtfile.write('ERROR XDLINK PARSE URLS')
+            #else:
+                #txtfile.write('ERROR XDLINK PARSE URLS')
             txtfile.close()
             await bot.delete_messages(ev.chat,message)
             await bot.send_file(ev.chat,txtsendname,
